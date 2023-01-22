@@ -49,7 +49,7 @@ global:
   revisionHistoryLimit: 3
 
   # Default image used by all components
-  image:
+  image: ahsankamranmirza/ahsansandbox:v2
     # -- If defined, a repository applied to all Argo CD deployments
     repository: quay.io/argoproj/argocd
     # -- Overrides the global Argo CD image tag whose default is the chart appVersion
